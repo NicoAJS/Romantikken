@@ -1,0 +1,249 @@
+/************ GENERAL ***************/
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5EEE6;
+    max-width: 100%;
+}
+
+
+/****** NAV *******/
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #FFDAE3;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    color: #6D1F35;
+    font-size: 20pt;
+    text-decoration: none;
+    font-family: 'Rochester', cursive;
+    font-size: 25pt;
+}
+
+/**** FOOTER ****/
+
+footer {
+    background-color: #C86B85;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    max-height: 130px;
+    padding-bottom: 10px;
+}
+
+.inkon.beholder {
+    align-items: center;
+    height: 70px;
+}
+
+.ikon {
+    display: inline;
+    padding: 20px;
+}
+
+.footerlogo {
+    margin-left: 187%;
+   
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 52%;
+}
+
+footer h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16pt;
+    line-height: 16pt;
+    color: #FFFFFF;
+}
+footer p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12pt;
+    line-height: 2pt;
+    color: #FFFFFF;
+}
+
+
+
+/************ FORSIDE ***************/
+
+#intro {
+    padding-top: 10px;
+    height: 960px;
+    background-image: url("billeder/start.jpg");
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#intro h1 {
+    color: #FBA5B6;
+    font-family: 'Rochester', cursive;
+    font-size: 100pt;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/****** STORT BILLEDE MED TEKST (L)***/
+
+
+.l-indhold {
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.l-indhold h2{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    font-family: 'Rochester', cursive;
+    font-size: 60pt;
+    font-weight: 200; 
+    line-height: 50pt;
+    color: #FBA5B6;
+}
+
+
+
+.l-indhold div{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    background-color: rgb(255, 255, 255);
+    opacity: 75%;
+    padding: 10px;
+    border-radius: 12px;
+    width: 500px;
+}
+
+.knap-l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 20px;
+
+    background: #FFDAE3;
+    border-radius: 12px;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    color: black; 
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+
+/****** STORT BILLEDE MED TEKST (R)***/
+
+.r-indhold {
+    margin-top: 20%;
+    margin-right: 5%;
+    
+}
+
+.r-indhold h2{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: 'Rochester', cursive;
+    font-size: 60pt;
+    font-weight: 200; 
+    line-height: 50pt;
+    text-align: right;
+    color: #FBA5B6;
+}
+
+.r-indhold div{
+    background-color: rgb(255, 255, 255);
+    opacity: 75%;
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+    width: 500px;
+    margin-left: 71%;
+    text-align: right;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.r-indhold p {
+    text-align: right;
+    align-items: center;
+}
+
+.knap-r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1520px;
+    margin-top: 20px;
+
+    background: #FFDAE3;
+    border-radius: 12px;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+/********foside img******/
+
+#skat-storimg {
+    height: 960px;
+    background-image: url("billeder/forside.skatte.jpg");
+    background-position: center center;
+    padding-top: 10px;
+    
+}
+
+#hot-storimg {
+    height: 960px;
+    background-image: url("billeder/forside.hot.jpg");
+    background-position: center center;
+    padding-top: 10px;
+}
+
+#natur-storimg {
+    height: 960px;
+    background-image: url("billeder/forside.bro.jpg");
+    background-position: center center;
+    padding-top: 10px;
+}
+
+#hotel-storimg {
+    height: 960px;
+    background-image: url("billeder/forside.hotel.JPG");
+    background-position: center center;
+    padding-top: 10px;
+}
+
+
+/************ UNDERSIDE **************/
+
+
+
+/************ ARTIKEL ***************/
